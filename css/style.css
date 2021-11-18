@@ -1,0 +1,267 @@
+/*
+*{
+    margin:0
+    padding:0
+}
+*/
+
+
+
+body{
+    background-color: rgba(201, 195, 190, 0.76);
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal; 
+    /* Same as bove */
+    /*font: normal 16px Arial, Helvetica, sans-serif;*/
+
+
+     line-height: 1.6em;
+     margin-top: 10px yellow;
+     border-top: 50px black solid;
+    
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:active{
+    color:yellow;
+}
+
+
+/* a:visited{
+   
+} */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px black solid;
+    border-radius: 8px;
+
+}
+
+.button:hover{
+    background: rgba(136, 136, 13, 0.801);
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    /* border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+/*same as above*/
+    
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+   
+
+    border-right: 5px rgba(255, 255, 0, 0.685) solid;
+    border-bottom: 5px rgba(255, 255, 0, 0.685) solid;
+    border-right-style: double;
+    border-bottom-style: double;
+
+    padding: 10px 20px;
+
+    margin: 40px 10px;
+    border-radius: 15px;
+    
+    
+    font-family: cursive;
+    
+
+
+}
+
+.box-1 h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-weight: 800;
+  font-style: italic; 
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.em;
+
+  
+}
+
+.box-2{
+    background-color: yellow;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    padding: 20px;
+    margin: 30px 1px;
+    border-radius: 15px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-2 h1{
+    text-transform: uppercase;
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.categories{
+    
+    border: 1px #ccc solid;
+    padding:10px;
+    border-radius: 15px;
+
+}
+
+.categories h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+.catagories ul{
+    padding: 20px;
+    list-style: none;
+} 
+
+.catagories li{
+    padding-bottom: 4px;
+    border-bottom: dotted 1px black;
+    list-style-image: url('../images/check.png');
+
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+ .my-form input[type="text"], .my-form textarea{
+     padding: 8px;
+     width: 50%;
+ }
+
+ .block{
+      float: left;
+      width: 33.3%; 
+      border: 3px rgba(255, 255, 0, 0.685) solid;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #333;
+      color: white;
+      border-radius: 15px 0;
+      font-family: cursive;
+      font-style: oblique;
+ }
+
+ #main-block{
+     float: left;
+     width: 70%;
+     padding: 15px;
+     box-sizing: border-box;
+     font-family: cursive;
+ }
+
+ #side-bar{
+     float:right;
+     width: 30%;
+     background-color: yellow;
+     color: black;
+     padding: 15px;
+     box-sizing: border-box;
+     border-radius: 15px 0;
+     font-style: unset;
+     font-family: cursive;
+ }
+
+ .p-box{
+     width: 100%;
+     height: 400px;
+     border: 5px solid rgba(255, 255, 0, 0.849);
+     border-radius: 15px;
+     margin-top: 30px;
+     position: relative;
+     background-image: url('../images/bgimage.jpg');
+     background-size: contain;
+     
+ }
+ .p-box h1{
+     position: relative;
+     top: 130px;
+     text-align: center;
+     color: white;
+     font-style: oblique;
+     font-family: cursive;
+ }
+
+ .p-box h3{
+     position: relative;
+     top:30%;
+     text-align: center;
+     color: white;
+     font-style: oblique;
+     font-family: cursive;
+ }
+
+ .fix-me{
+     position: fixed;
+     top: 100px;
+     background-color: rgba(255, 255, 0, 0.712);
+     border-right: 4px black solid;
+     border-bottom: 4px black solid;
+     border-radius:0 10px 10px 0;
+     padding: 5px;
+     font-style: oblique;
+     font-family: cursive;
+ }
+
+ /* .my-list li:first-child{
+     background: red;
+      
+}
+
+.my-list li:last-child{
+    background: blue;
+     
+}
+
+.my-list li:nth-child(5){
+    background: burlywood;
+} */
+
+.my-list li:nth-child(even){
+    background: grey;
+}
+
+.my-list li:nth-child(odd){
+    background: rgba(223, 223, 15, 0.945);
+}
