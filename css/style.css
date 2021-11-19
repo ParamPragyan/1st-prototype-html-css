@@ -142,12 +142,12 @@ a:active{
     font-family: cursive;
 }
 
-.catagories ul{
+.categories ul{
     padding: 20px;
     list-style: none;
 } 
 
-.catagories li{
+.categories li{
     padding-bottom: 4px;
     border-bottom: dotted 1px black;
     list-style-image: url('../images/check.png');
